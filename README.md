@@ -1,5 +1,6 @@
 ## Kalman Filter for Object Tracking
-Please see __Kalman Filter_JRico_report.pdf__ for further details.
+Please see [Kalman Filter_JRico_report.pdf]("./Kalman Filter_JRico_report.pdf") for further details.
+
 
 #### Toy series
 ---
