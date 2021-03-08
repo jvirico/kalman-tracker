@@ -3,16 +3,12 @@ Please see __Kalman Filter_JRico_report.pdf__ for further details.
 
 #### Toy series
 ---
-<img src="./imgs/ToyVideo1.png" alt="drawing" width="200"/>
+<img src="./imgs/ToyVideo1.png" alt="drawing" width="300"/>
+<img src="./imgs/324.png" alt="drawing" width="300"/>
+<img src="./imgs/AM3.png" alt="drawing" width="300"/>
 
 
 
-
----
-![](./imgs/ToyVideo1.png)
-![](./imgs/324.png)
-![](./imgs/AM3.png)
-![](./imgs/ToyVideo1.png)
 
 #### Real series
 ---
