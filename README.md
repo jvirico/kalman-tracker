@@ -8,11 +8,9 @@ Please see __Kalman Filter_JRico_report.pdf__ for further details.
 <img src="./imgs/AM3.png" alt="drawing" width="300"/>
 
 
-
-
 #### Real series
 ---
-![](./imgs/3315.png)
-![](./imgs/3324.png)
-![](./imgs/3334.png)
-![](./imgs/RealVideo4a.png)
+<img src="./imgs/3315.png" alt="drawing" width="300"/>
+<img src="./imgs/3324.png" alt="drawing" width="300"/>
+<img src="./imgs/3334.png" alt="drawing" width="300"/>
+<img src="./imgs/RealVideo4a.png" alt="drawing" width="600"/>
