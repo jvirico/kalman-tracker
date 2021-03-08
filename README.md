@@ -1,6 +1,9 @@
 ## Kalman Filter for Object Tracking
-Please see [Kalman Filter_JRico_report.pdf]("./Kalman Filter_JRico_report.pdf") for further details.
+Please see [Kalman Filter_JRico_report.pdf](./Kalman Filter_JRico_report.pdf) for further details.
 
+#### Authors
+    Javier Rico (jvirico@gmail.com)
+    Meaza Eyakem (meazaeyakem1@gmail.com)
 
 #### Toy series
 ---
