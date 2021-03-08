@@ -1,5 +1,6 @@
 # C++ implementation of Kalman Filter for Object Tracking
-Please see ![report](./Kalman Filter_JRico_report.pdf) for further details.
+Please see the followitn report for further details:
+![Report](./Kalman Filter_JRico_report.pdf)
 
 #### Authors
     Javier Rico (jvirico@gmail.com)
