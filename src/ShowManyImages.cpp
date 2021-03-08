@@ -1,13 +1,3 @@
-/* Applied Video Sequence Analysis (AVSA)
- *
- *	LAB1: Background Subtraction - Unix version
- *  ShowManyImages.cpp
- *
- * 	Authors: José M. Martínez (josem.martinez@uam.es), Paula Moral (paula.moral@uam.es) & Juan Carlos San Miguel (juancarlos.sanmiguel@uam.es)
- *	VPULab-UAM 2020
- *	Adapted from OpenSoruce (see below)
- */
-
 #include <opencv2/opencv.hpp>
 
 #include <stdio.h>

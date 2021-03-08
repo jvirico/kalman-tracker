@@ -36,14 +36,6 @@ int extractBlobs(Mat fgmask, std::vector<cvBlob> &bloblist, int connectivity);
 int removeSmallBlobs(std::vector<cvBlob> bloblist_in, std::vector<cvBlob> &bloblist_out, int min_width, int min_height);
 int removeBigBlobs(std::vector<cvBlob> bloblist_in, std::vector<cvBlob> &bloblist_out, int min_width, int min_height);
 Point GetBallCoordinates(std::vector<cvBlob>);
-//int extractBlobs_floodFill(Mat fgmask, std::vector<cvBlob> &bloblist, int connectivity);
-//int extractBlobs_Optional1(cv::Mat fgmask, std::vector<cvBlob> &bloblist, int connectivity);
-//int classifyBlobs(std::vector<cvBlob> &bloblist);
-//int classifyBlobs_Optional2(Mat frame, Mat fgmask, std::vector<cvBlob> &bloblist);
-//int extractStationaryFG(Mat fgmask, Mat &fgmask_history, Mat &sfgmask);
-//void MorphologicalOps(int iMode, Mat &fgmask);
-//void SerializeMat(const string& filename, const Mat& mat);
-//Mat DeserializeMat(const string& filename);
 
 #endif
 
