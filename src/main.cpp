@@ -60,24 +60,24 @@ int main(int argc, char ** argv)
 	//**********************************************************
 	fgseg::bgs oBGS(0, 3);
 
-	double learningrate = 0.001;//Task 3.1
-	//double learningrate = 0.001;//Task 3.2
-	//double learningrate = 0.0001;//Task 3.3
+	double learningrate = 0.001;//Test 3.1
+	//double learningrate = 0.001;//Test 3.2
+	//double learningrate = 0.0001;//Test 3.3
 	int structuringElement_CCA = 4; // 4 or 8
-	int min_width = 15;//Task 3.1
-	int min_height = 15;//Task 3.1
-	//int min_width = 55;//Task 3.2
-	//int min_height = 55;//Task 3.2
-	int max_width = 150;//Task 3.2
-	int max_height = 150;//Task 3.2
-	//int min_width = 15; //Task 3.3_1
-	//int min_height = 29; //Task 3.3_1
-	//int min_width = 30; //Task 3.3_2
-	//int min_height = 65; //Task 3.3_2
-	//int min_width = 25; //Task 3.3_3
-	//int min_height = 55; //Task 3.3_3
-	//int min_width = 30; //Task 3.3_4
-	//int min_height = 30; //Task 3.3_4
+	int min_width = 15;//Test 3.1
+	int min_height = 15;//Test 3.1
+	//int min_width = 55;//Test 3.2
+	//int min_height = 55;//Test 3.2
+	int max_width = 150;//Test 3.2
+	int max_height = 150;//Test 3.2
+	//int min_width = 15; //Test 3.3_1
+	//int min_height = 29; //Test 3.3_1
+	//int min_width = 30; //Test 3.3_2
+	//int min_height = 65; //Test 3.3_2
+	//int min_width = 25; //Test 3.3_3
+	//int min_height = 55; //Test 3.3_3
+	//int min_width = 30; //Test 3.3_4
+	//int min_height = 30; //Test 3.3_4
 	//**********************************************************
 
 
@@ -187,31 +187,31 @@ int main(int argc, char ** argv)
 				// RESULTS VISUALIZATION
 				//**********************************************************				
 				//
-				int iTextSize1 = 1;//Task 3.1 and 3.3
-				int iTextSize2 = 1.5;//Task 3.1 and 3.3
-				int iTextThickness = 1;//Task 3.1 and 3.3
-				int iTestsOffset = 20;//Task 3.1 and 3.3
-				//int iTextSize1 = 1.8;//Task 3.2
-				//int iTextSize2 = 2.5;//Task 3.2
-				//int iTextThickness = 3;//Task 3.2
-				//int iTestsOffset = 400;//Task 3.2
+				int iTextSize1 = 1;//Test 3.1 and 3.3
+				int iTextSize2 = 1.5;//Test 3.1 and 3.3
+				int iTextThickness = 1;//Test 3.1 and 3.3
+				int iTestsOffset = 20;//Test 3.1 and 3.3
+				//int iTextSize1 = 1.8;//Test 3.2
+				//int iTextSize2 = 2.5;//Test 3.2
+				//int iTextThickness = 3;//Test 3.2
+				//int iTestsOffset = 400;//Test 3.2
 
-				//putText(frame,"Ground Truth (ball)", Point(10,15+ iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, Scalar(255, 255, 255), 1);//Task 3.1 and 3.3
-				putText(frame, "Ground Truth (ball)", Point(10, 15 + iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, GT_Color, iTextThickness);//Task 3.1 and 3.3
-				putText(frame, "Kalman Prediction", Point(10, 40 + iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, K_pred_Color, iTextThickness);//Task 3.1 and 3.3
-				putText(frame, "Kalman Corrected", Point(10, 65 + iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, K_corr_Color, iTextThickness);//Task 3.1 and 3.3
+				//putText(frame,"Ground Truth (ball)", Point(10,15+ iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, Scalar(255, 255, 255), 1);//Test 3.1 and 3.3
+				putText(frame, "Ground Truth (ball)", Point(10, 15 + iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, GT_Color, iTextThickness);//Test 3.1 and 3.3
+				putText(frame, "Kalman Prediction", Point(10, 40 + iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, K_pred_Color, iTextThickness);//Test 3.1 and 3.3
+				putText(frame, "Kalman Corrected", Point(10, 65 + iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, K_corr_Color, iTextThickness);//Test 3.1 and 3.3
 
-				//putText(frame, "Ground Truth (ball)", Point(10, 50 + iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, GT_Color, iTextThickness);//Task 3.2
-				//putText(frame, "Kalman Prediction", Point(10, 100 + iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, K_pred_Color, iTextThickness);//Task 3.2
-				//putText(frame, "Kalman Corrected", Point(10, 150 + iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, K_corr_Color, iTextThickness);//Task 3.2
+				//putText(frame, "Ground Truth (ball)", Point(10, 50 + iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, GT_Color, iTextThickness);//Test 3.2
+				//putText(frame, "Kalman Prediction", Point(10, 100 + iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, K_pred_Color, iTextThickness);//Test 3.2
+				//putText(frame, "Kalman Corrected", Point(10, 150 + iTestsOffset), FONT_HERSHEY_SIMPLEX, iTextSize1, K_corr_Color, iTextThickness);//Test 3.2
 
-				//putText(frame, "Frame " + to_string(iFrameNum), Point(10, 200 + iTestsOffset), FONT_HERSHEY_COMPLEX, iTextSize1, Scalar(255,255,255), iTextThickness);//Task 3.2
-				putText(frame, "Frame " + to_string(iFrameNum), Point(10, 90 + iTestsOffset), FONT_HERSHEY_COMPLEX, iTextSize1, Scalar(255, 255, 255), iTextThickness);//Task 3.2 and 3.3
+				//putText(frame, "Frame " + to_string(iFrameNum), Point(10, 200 + iTestsOffset), FONT_HERSHEY_COMPLEX, iTextSize1, Scalar(255,255,255), iTextThickness);//Test 3.2
+				putText(frame, "Frame " + to_string(iFrameNum), Point(10, 90 + iTestsOffset), FONT_HERSHEY_COMPLEX, iTextSize1, Scalar(255, 255, 255), iTextThickness);//Test 3.2 and 3.3
 
-				//Point p1 = Point(kalmanBall.x-10, kalmanBall.y-10); //Task 3.3
-				//Point p2 = Point(kalmanBall.x + 10, kalmanBall.y + 10); //Task 3.3
-				Point p1 = Point(kalmanBall.x - 10, kalmanBall.y - 10); //Task 3.3
-				Point p2 = Point(kalmanBall.x + 10, kalmanBall.y + 10); //Task 3.3
+				//Point p1 = Point(kalmanBall.x-10, kalmanBall.y-10); //Test 3.3
+				//Point p2 = Point(kalmanBall.x + 10, kalmanBall.y + 10); //Test 3.3
+				Point p1 = Point(kalmanBall.x - 10, kalmanBall.y - 10); //Test 3.3
+				Point p2 = Point(kalmanBall.x + 10, kalmanBall.y + 10); //Test 3.3
 
 				if (oKF.getStatus() == "Predicted") {rectangle(frame, p1, p2, K_pred_Color, 1, 8, 0);}
 				else {rectangle(frame, p1, p2, K_corr_Color, 1, 8, 0);}
